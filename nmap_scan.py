@@ -43,6 +43,7 @@ def main():
 
     # Display scan options and get the user's choice
     print("PRESS:")
+    print("-> 0 = NORMAL SCAN")
     print("-> 1 = SYN SCAN")
     print("-> 2 = TCP CONNECT SCAN")
     print("-> 3 = FULL SCAN")
@@ -66,7 +67,9 @@ def main():
     # Execute the corresponding Nmap command based on the user's choice
     command = ["nmap", ip]
     
-    if scan == '1':  # SYN SCAN
+    if scan == '0': #NORMAL SCAN
+        command += ["-sV"] + options
+    elif scan == '1':  # SYN SCAN
         command += ["-sS"] + options
     elif scan == '2':  # TCP CONNECT SCAN
         command += ["-sT"] + options
