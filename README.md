@@ -41,7 +41,7 @@ This Python script is a simple yet powerful network port scanner that utilizes N
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/CYBER-MRINAL/AUTOMATED-nmap.git
+   git clone https://github.com/CYBER-4RMY/AUTOMATED-nmap.git
    cd AUTOMATED-nmap
    ```
 
@@ -82,5 +82,4 @@ Executing command: nmap 192.168.1.1 -sS -sV -p 22 80
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-You can contact me on [TELEGRAM](https://t.me/cybermrinalgroup)
 Feel free to modify any part of the description to better fit your style or the specifics of your project!
